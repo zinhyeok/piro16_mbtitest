@@ -1,0 +1,176 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: black;
+  color: #ffffef;
+}
+.language-box {
+  display: flex;
+  color: white;
+}
+.info {
+  display: flex;
+  color: gray;
+}
+.startPage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.questionPage {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+}
+
+.resultPage {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.main-img {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.ad {
+  margin-top: 3rem;
+}
+
+#startButton {
+  background: #f7c05a;
+  color: #9b6400;
+  display: flex;
+  font-size: 1.3rem;
+  font-family: "font1";
+  padding: 0;
+}
+#question {
+  font-size: 1.5rem;
+  word-break: keep-all;
+}
+.question-container {
+  width: 80%;
+  margin: 3rem 0;
+}
+.question-box {
+  border: 0.2rem solid #ff3b77;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#qnum {
+  font-size: 2rem;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+.progress-bar {
+  background-color: #ff3b77 !important;
+}
+#ans1,
+#ans2,
+#ans3 {
+  color: #ffffef;
+  font-size: 1.2rem;
+}
+/* #ans1:hover,
+#ans2:hover,
+#ans3:hover {
+  color: #ff3b77;
+} */
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 370px) {
+  html {
+    font-size: 8px;
+  }
+}
+/* @media screen and (max-width: 1000px) {
+  html {
+    font-size: 15px;
+  }
+} */
+.ans-container svg,
+#startButton svg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.4rem;
+}
+.ans-container:hover > svg {
+  color: #ff3b77;
+}
+.ans-container:hover {
+  border: 0.15rem solid #ff3b77;
+  transition: all ease 0.5s 0s;
+}
+.ans-container:hover > #ans1 {
+  color: #ff3b77;
+}
+.ans-container:hover > #ans2 {
+  color: #ff3b77;
+}
+.ans-container:hover > #ans3 {
+  color: #ff3b77;
+}
+.ans-container {
+  border: 0.15rem solid white;
+  border-radius: 20px;
+  padding: 0.5rem 0.9rem;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+.img-container {
+  width: 70%;
+  margin: 1rem;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+#resultOneLine {
+  font-size: 1.5rem;
+  /* border: 1px solid white; */
+  border-radius: 20px;
+  padding: 1rem;
+  word-break: keep-all;
+  font-weight: 400;
+}
+#resultExplain {
+  font-size: 1.3rem;
+  font-weight: 300;
+  word-break: keep-all;
+}
+#resultName {
+  font-weight: 400;
+  font-size: 2rem;
+}
+#startButton img {
+  width: 16rem;
+}
+
+.addthis_inline_share_toolbox_dsan mb-3 {
+  margin: 0.2rem;
+}
