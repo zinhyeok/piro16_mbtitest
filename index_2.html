@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="style.css">
         <script defer type="text/javascript" src="index_2.js"></script>
     </head>
+
 <body>
     <article class="startPage">
         <img src="./static/squid_game_main.png" alt="" class="main-img">
@@ -18,48 +19,13 @@
     </article>
 
     <article class="questionPage">
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: calc(100/10*1%)" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-
-          <div class="content-container">
-            <div class="question-box">
-                <span id="qnum">Q1</span>
-            </div>
-            <div class="question-container">
-                <span id="question">문제내용</span>
-            </div>
-            <div class="ans-wrapper">
-                <div class="ans-container">
-                    <button id="ans1" onClick="countValue(this.id)" class="btn"
-                    value1="P" value2="0">
-                    답변1</button>
-                </div>
-                <div class="ans-container">
-                    <button id="ans2" onClick="countValue(this.id)" class="btn"
-                    value1="P" value2="0">
-                    답변2</button>
-                </div>
-                <div class="ans-container">
-                    <button id="ans3" onClick="countValue(this.id)" class="btn"
-                    value1="P" value2="0">
-                    답변3</button>
-                </div>
-            </div>
-
-            <section class="input">
-                <input type="hidden" id="EI" value="0">
-                <input type="hidden" id="PJ" value="0">
-                <input type="hidden" id="FT" value="0">
-                <input type="hidden" id="SN" value="0">
-            </section>
-    
-        </article>
+        <h1>질문</h1>
+    </article>
 
     <article class="resultPage">
         <h1>답변</h1>
     </article>
-
+    
 </body>
 
 </html>
