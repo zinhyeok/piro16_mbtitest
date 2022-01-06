@@ -80,7 +80,7 @@ const startButton = document.querySelector("#startButton");
 const startImg = document.querySelector(".startImg");
 const startPage = document.querySelector(".startPage");
 const questionPage = document.querySelector(".questionPage");
-const resultPage = document.querySelector(".resultPage")/챙ㄷ
+const resultPage = document.querySelector(".resultPage")
 
 const qnum = document.querySelector("#qnum")
 const question = document.querySelector("#question")
@@ -127,8 +127,6 @@ function mbtiResult(){
 }
 
 function changeAnswer(mbti){
-    console.log(mbti);
-    console.log(resultList[mbti]["img"]);    
     resultImg.setAttribute("src",`${resultList[mbti]["img"]}`);
     resultName.innerHTML= resultList[mbti]["name"];
     resultOneLine.innerHTML= resultList[mbti]["oneLine"];
